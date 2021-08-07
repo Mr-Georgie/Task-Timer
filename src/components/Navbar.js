@@ -11,7 +11,7 @@ function Navbar() {
             <nav className="navbar navbar-dark mb-5" style={style}>
                 <div className="container-fluid">
                     {/* <span className="navbar-brand">Fixed top</span> */}
-                    <span className="navbar-brand font-three mx-auto">TASKER</span>
+                    <span className="navbar-brand font-three mx-auto">TASK TIMER</span>
                 </div>
             </nav>
         </div>
