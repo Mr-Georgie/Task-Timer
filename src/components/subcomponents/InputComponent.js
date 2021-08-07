@@ -14,7 +14,7 @@ function InputComponent(props) {
         fontSize: 45,
         border: "3px",
         borderStyle: "solid",
-        borderColor: 'white'
+        borderColor: props.randColor
     }
     
     // Split the total duration property into units of time to be displayed in the countdown timer

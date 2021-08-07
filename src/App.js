@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import randomcolor from "randomcolor"
 import './App.css'
 // import BottomBar from './BottomBar'
 
@@ -26,7 +27,8 @@ export class App extends Component {
             inputInvalid: true,
             disableStartButton: true,
             count: 0,
-            intervalID: 0  
+            intervalID: 0,
+            randColor: ""  
         }
     }
     
@@ -69,9 +71,13 @@ export class App extends Component {
             })
             // timetaken is the total duration in hours
             // totalDuration is the total duration in seconds
-            this.setState({ totalDuration, timeTaken });
+            this.setState({ totalDuration, timeTaken});
+        }
         
-            // console.log(preventAddTask)
+        if (prevState.totalDuration !== this.state.totalDuration) {
+            // a little animation by generating random colors
+            const newColor = randomcolor()
+            this.setState({ randColor: newColor });
         }
     }
     
@@ -202,6 +208,7 @@ export class App extends Component {
                 inputInvalid = {this.state.inputInvalid}
                 disableStartButton = {this.state.disableStartButton}
                 timeTaken = {this.state.timeTaken}
+                randColor = {this.state.randColor}
                 />
             </div>
         )

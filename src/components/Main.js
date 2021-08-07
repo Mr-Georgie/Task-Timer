@@ -36,6 +36,7 @@ function Main(props) {
                     inputInvalid = {props.inputInvalid}
                     timeTaken = {props.timeTaken}
                     disableStartButton = {props.disableStartButton}
+                    randColor = {props.randColor}
                     />
                 </div>
                 <div className="col-5" style={box}>
