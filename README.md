@@ -2,7 +2,7 @@
 A Task Timer App built with ReactJs
 
 ## Preview
-![Alt text](https://github.com/[Mr-Georgie]/[Task-Timer]/blob/[main]/task-timer.png?raw=true)
+![Screenshot](blob/task-timer.png)
 
 ## Functionalities
 * Similar to a todo list app, user can add and remove individual task.
