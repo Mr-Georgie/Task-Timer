@@ -1,0 +1,20 @@
+.font-one {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.font-two {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.font-three {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+hr.line {
+    border: 1px solid red;
+}
+
+/* .main form input {
+    background-color: grey;
+} */
