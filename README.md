@@ -1,5 +1,5 @@
 # A Task Timer 
-A Task Timer App built with ReactJs
+A Task Timer App built with ReactJs and Bootstrap
 
 ## Preview
 ![Screenshot](blob/task-timer.png)
@@ -30,6 +30,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+* make sure you're connected to the internet when loading app due to bootstrap cdn
 
 ### `npm run build`
 
