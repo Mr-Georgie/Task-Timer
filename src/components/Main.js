@@ -1,6 +1,6 @@
 import React from 'react'
-import InputComponent from './InputComponent'
-import TaskList from './TaskList'
+import InputComponent from './subcomponents/InputComponent'
+import TaskList from './subcomponents/TaskList'
 import Info from './Info'
 
 function Main(props) {

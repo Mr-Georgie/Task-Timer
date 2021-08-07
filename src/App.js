@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Navbar from './components/UI/Navbar'
-import Main from './components/UI/Main'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 import './App.css'
 // import BottomBar from './BottomBar'
 
