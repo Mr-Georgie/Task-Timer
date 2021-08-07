@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# A Task Timer 
+A Task Timer App built with ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Functionalities
+* Similar to a todo list app, user can add and remove individual task.
+* Each task is added with a specified duration.
+* Total duration of all task are calculated and display in the count-down timer.
+* User can click on the start button to start countdown.
+* User can also stop timer by clicking on button.
+* User can clear all task at once.
+* User can delete individual task.
 
-## Available Scripts
+## Bugs
+* Negative countdown.
+* Not responsive on mobile.
+* User should not be able to add task once timer is running.
+* As timer runs out, each task should fade out.
+
+#### Want to test locally on your PC?
 
 In the project directory, you can run:
 
@@ -13,11 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
