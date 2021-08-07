@@ -2,7 +2,7 @@
 A Task Timer App built with ReactJs and Bootstrap
 
 ## Preview
-![Screenshot](blob/tasker.mp4)
+https://user-images.githubusercontent.com/28518667/128606248-b1ef9406-cc7c-4cde-a17e-c737a9ac38c9.mp4
 
 ## Functionalities
 * Similar to a todo list app, user can add and remove individual task.
